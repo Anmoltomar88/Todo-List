@@ -45,6 +45,7 @@ window.addEventListener('load', () => {
 					edit.innerHTML="Save";
 					taskInput.removeAttribute("readonly");	
 				}else{
+			                edit.innerHTML="Edit";
 					taskInput.setAttribute("readonly","readonly");
 				}
 
